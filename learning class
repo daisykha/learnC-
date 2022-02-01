@@ -1,0 +1,31 @@
+using System;
+
+namespace BasicClasses
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Forest f = new Forest();
+      f.name = "A";
+      f.trees = 5;
+      f.age = 6;
+      f.biome = "B";
+      Console.WriteLine(f.name);
+    }
+  }
+}
+----------------------
+using System;
+
+namespace BasicClasses
+{
+  class Forest
+  {
+    public string name;
+    public int trees;
+    public int age;
+    public string biome;
+  }
+
+}
